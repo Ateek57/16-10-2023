@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 120px;
+            width: 120px;
+            position: relative;
+            border: 1px solid red;
+
+        }
+        .box {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: aquamarine;
+            color: black;
+            text-align: center;
+            margin: 1px;
+            
+           
+        }
+        .box1 {
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .box2 {
+            top: 0;
+            position: absolute;
+        }
+        .box3 {
+            right: 0;
+            position: absolute;
+        }
+        .box4 {
+           left: 0;
+           bottom:0;
+           position: absolute;
+        }
+        .box5 {
+            right: 0;
+            bottom: 0;
+            position: absolute;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1 ">A</div>
+        <div class="box box2">B</div>
+        <div class="box box3">C</div>
+        <div class="box box4">D</div>
+        <div class="box box5">E</div>
+    </div>
+</body>
+</html>
